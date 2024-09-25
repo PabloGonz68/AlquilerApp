@@ -2,136 +2,151 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto 1 - Propuesta</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #ece9e6, #ffffff);
-            color: #333;
-            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
             padding: 20px;
         }
         h1, h2, h3 {
-            color: #ff6347;
+            color: #333;
         }
         h1 {
             text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 20px;
-            animation: slideIn 1s;
+            color: #0056b3;
         }
-        h2 {
-            border-bottom: 2px solid #ff6347;
-            padding-bottom: 5px;
-            margin-top: 40px;
-        }
-        p {
-            margin: 10px 0;
-        }
-        .content {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #fff;
+        .section {
+            background-color: white;
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            animation: fadeIn 1.5s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
         }
-        ul {
-            margin: 10px 0 20px 20px;
-            list-style-type: square;
+        p {
+            line-height: 1.6;
+            color: #555;
         }
         .highlight {
-            background-color: #f0f8ff;
-            padding: 10px;
-            border-left: 4px solid #ff6347;
+            background-color: #e7f1ff;
+            padding: 5px;
+            border-left: 5px solid #0056b3;
+            margin-bottom: 10px;
         }
-        @keyframes slideIn {
-            from { transform: translateY(-50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
+        .important {
+            color: #d9534f;
+            font-weight: bold;
         }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+        .list {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
-    <div class="content">
-        <h1>Proyecto 1</h1>
-        <h2>Desarrollando una aplicación web</h2>
-        <h3>De la teoría a la práctica</h3>
-        
-        <p class="highlight">Documento de propuesta</p>
-        
-        <p><strong>Asignatura:</strong> Desarrollo Web</p>
-        <p><strong>Entorno al Cliente</strong></p>
-        <p><strong>Fecha:</strong> 24/09/2024</p>
-        <p><strong>Nombre:</strong> Pablo González Silva</p>
-        
-        <h2>¿Qué contiene?</h2>
-        <ul>
-            <li>Descripción de la idea de la aplicación y su propósito.</li>
-            <li>Público objetivo y relevancia.</li>
-            <li>Análisis de mercado y propuesta de valor diferenciadora.</li>
-            <li>Funcionalidades clave de la aplicación.</li>
-            <li>Tecnologías seleccionadas para el desarrollo, con justificación.</li>
-        </ul>
-        
-        <h2>Descripción de la idea y propósito</h2>
-        <p>
-            La idea es una plataforma web dedicada al alquiler de productos entre particulares. El objetivo es crear un espacio donde los usuarios puedan ofrecer y alquilar objetos que no utilizan frecuentemente, como herramientas, equipos electrónicos, o muebles para eventos. Esto fomenta un uso más eficiente de los recursos, evitando la compra de artículos de uso ocasional y promoviendo la economía colaborativa.
-        </p>
-        <p>
-            Facilita el acceso temporal a productos que las personas necesitan, pero no desean comprar. Esto aborda el problema del consumismo excesivo y promueve un consumo más sostenible, permitiendo a los usuarios monetizar los bienes que no utilizan.
-        </p>
 
-        <h2>Público objetivo y relevancia</h2>
-        <p>Dirigida a un público amplio que incluye:</p>
-        <ul>
-            <li><strong>Personas que necesitan productos de uso temporal:</strong> Particulares que requieren herramientas, equipos deportivos o muebles, pero no desean comprarlos.</li>
-            <li><strong>Personas que poseen productos en desuso:</strong> Propietarios de objetos que buscan generar ingresos alquilándolos.</li>
-            <li><strong>Personas interesadas en el consumo sostenible:</strong> Usuarios preocupados por el medio ambiente que buscan reducir el desperdicio.</li>
-            <li><strong>Comunidades locales:</strong> Facilita el alquiler de productos entre personas de la misma zona.</li>
-        </ul>
+<h1>Proyecto 1: Desarrollando una aplicación web</h1>
+<h2>Documento de propuesta</h2>
 
-        <h2>Análisis de mercado y propuesta de valor</h2>
-        <p>
-            El mercado del alquiler de productos entre particulares forma parte de la economía colaborativa, que ha ganado popularidad por su impacto positivo. Aunque existen competidores como Wallapop y Fat Llama, nuestra aplicación tiene ventajas competitivas:
-        </p>
-        <ul>
-            <li><strong>Enfoque Exclusivo en el Alquiler:</strong> Optimización de funcionalidades para una experiencia fluida.</li>
-            <li><strong>Foco en la Comunidad Local:</strong> Facilita entregas y devoluciones sin intermediarios.</li>
-            <li><strong>Segmentación Flexible de Categorías:</strong> Amplia gama de productos adaptables a nichos específicos.</li>
-            <li><strong>Sostenibilidad como Pilar Central:</strong> Alineada con tendencias de consumo responsable.</li>
-            <li><strong>Valoraciones y Reputación como Filtro de Confianza:</strong> Genera un ambiente seguro y confiable.</li>
-        </ul>
+<div class="section">
+    <h3>Información General</h3>
+    <p class="highlight">Asignatura: <strong>Desarrollo Web - Entorno al Cliente</strong></p>
+    <p class="highlight">Fecha: <strong>24/09/2024</strong></p>
+    <p class="highlight">Nombre: <strong>Pablo González Silva</strong></p>
+</div>
 
-        <h2>Funcionalidades clave</h2>
-        <ul>
-            <li><strong>Registro de Usuarios y Verificación de Identidad:</strong> Facilita el registro y genera confianza.</li>
-            <li><strong>Publicación de Productos para Alquilar:</strong> Gestión de disponibilidad y precios flexibles.</li>
-            <li><strong>Búsqueda y Filtrado de Productos:</strong> Búsqueda avanzada y geolocalización.</li>
-            <li><strong>Proceso de Alquiler:</strong> Reserva fácil, pagos integrados y contratos digitales.</li>
-            <li><strong>Sistema de Valoraciones y Reputación:</strong> Fomenta confianza y transparencia.</li>
-        </ul>
+<div class="section">
+    <h3>Contenido</h3>
+    <ul class="list">
+        <li>La descripción de la idea de la aplicación y su propósito.</li>
+        <li>El público objetivo y la relevancia para dicho público.</li>
+        <li>Un análisis de mercado y la propuesta de valor diferenciadora.</li>
+        <li>Las funcionalidades clave que ofrecerá la aplicación.</li>
+        <li>Las tecnologías seleccionadas para el desarrollo, justificando la elección.</li>
+    </ul>
+</div>
 
-        <h2>Tecnologías seleccionadas para el desarrollo</h2>
-        <h3>Parte Cliente (Frontend)</h3>
-        <ul>
-            <li><strong>Angular:</strong> Framework principal para la interfaz de usuario.</li>
-            <li><strong>HTML5:</strong> Estructura semántica y optimizada.</li>
-            <li><strong>CSS3:</strong> Diseño responsivo y atractivo.</li>
-            <li><strong>TypeScript:</strong> Código seguro y estructurado.</li>
-            <li><strong>Google Maps API:</strong> Mapas interactivos para la experiencia de usuario.</li>
-        </ul>
+<div class="section">
+    <h3>Descripción de la Idea de la Aplicación y su Propósito</h3>
+    <p>La idea es una plataforma web dedicada al alquiler de productos entre particulares. La idea principal es crear un espacio en el que los usuarios puedan ofrecer y alquilar una amplia variedad de objetos que no utilizan de manera frecuente, como herramientas, equipos electrónicos, equipos deportivos o muebles para eventos. De este modo, la aplicación fomenta un uso más eficiente de los recursos, evitando la compra de artículos de uso ocasional y promoviendo la economía colaborativa.</p>
+    <p>El objetivo de esta aplicación es facilitar el acceso temporal a productos que las personas necesitan, pero que no quieren o no pueden comprar de manera permanente. De esta manera, se aborda el problema del consumismo excesivo y se promueve un modelo de consumo más sostenible. Además, la plataforma permite a los usuarios monetizar los bienes que no usan de manera frecuente, generando ingresos pasivos.</p>
+</div>
 
-        <h3>Parte Servidor (Backend)</h3>
-        <ul>
-            <li><strong>MySQL:</strong> Gestión de base de datos relacional.</li>
-            <li><strong>Google Maps API:</strong> Procesamiento de ubicaciones en el backend.</li>
-        </ul>
-    </div>
+<div class="section">
+    <h3>Público Objetivo y Relevancia</h3>
+    <p>Está dirigida a un público amplio y diverso que incluye:</p>
+    <ul class="list">
+        <li><strong>Personas que necesitan productos de uso temporal:</strong>
+            <ul class="list">
+                <li>Particulares que requieren productos puntuales como herramientas, equipos deportivos, o muebles para eventos.</li>
+                <li>Estudiantes o jóvenes profesionales que tienen necesidades temporales.</li>
+            </ul>
+        </li>
+        <li><strong>Personas que poseen productos en desuso:</strong>
+            <ul class="list">
+                <li>Propietarios de objetos que no usan frecuentemente, como bicicletas o cámaras fotográficas.</li>
+            </ul>
+        </li>
+        <li><strong>Personas interesadas en el consumo sostenible:</strong>
+            <ul class="list">
+                <li>Usuarios preocupados por el medio ambiente que buscan reducir el consumo excesivo.</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<div class="section">
+    <h3>Análisis de Mercado y Propuesta de Valor</h3>
+    <p>El mercado del alquiler de productos entre particulares forma parte de la creciente tendencia de la economía colaborativa. Aunque existen competidores como Wallapop y plataformas especializadas, la propuesta tiene características que la diferencian:</p>
+    <ul class="list">
+        <li><strong>Enfoque Exclusivo en el Alquiler:</strong> Optimización de la experiencia de alquiler.</li>
+        <li><strong>Foco en la Comunidad Local:</strong> Alquiler entre personas cercanas geográficamente.</li>
+        <li><strong>Segmentación Flexible de Categorías:</strong> Amplia gama de productos disponibles.</li>
+        <li><strong>Sostenibilidad como Pilar Central:</strong> Alquiler y reutilización de productos.</li>
+        <li><strong>Valoraciones y Reputación:</strong> Filtro de confianza entre usuarios.</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h3>Funcionalidades Clave</h3>
+    <ul class="list">
+        <li>Registro de Usuarios y Verificación de Identidad.</li>
+        <li>Publicación de Productos para Alquilar.</li>
+        <li>Búsqueda y Filtrado de Productos.</li>
+        <li>Proceso de Alquiler.</li>
+        <li>Sistema de Valoraciones y Reputación.</li>
+        <li>Gestión de Alquileres.</li>
+        <li>Seguridad y Protección.</li>
+        <li>Historial y Facturación.</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h3>Tecnologías Seleccionadas para el Desarrollo</h3>
+    <p><strong>Parte Cliente (Frontend):</strong></p>
+    <ul class="list">
+        <li><strong>Angular:</strong> Framework para desarrollar la interfaz de usuario.</li>
+        <li><strong>HTML5:</strong> Para la estructura y contenido de la interfaz.</li>
+        <li><strong>CSS3:</strong> Diseño y estilo de la aplicación.</li>
+        <li><strong>TypeScript:</strong> Lenguaje principal para el frontend.</li>
+        <li><strong>Google Maps API:</strong> Para integrar mapas interactivos.</li>
+    </ul>
+    <p><strong>Parte Servidor (Backend):</strong></p>
+    <ul class="list">
+        <li><strong>MySQL:</strong> Sistema de gestión de base de datos.</li>
+        <li><strong>Google Maps API:</strong> Procesamiento de ubicaciones y cálculos geoespaciales.</li>
+    </ul>
+</div>
+
+<footer>
+    <p>Este documento se presenta como parte del TFG de Desarrollo Web.</p>
+</footer>
+
 </body>
 </html>
