@@ -6,7 +6,7 @@
 #### Documento de propuesta  
 
 **Asignatura:** Desarrollo Web - Entorno al Cliente  
-**Fecha:** 24/09/2024  
+**Fecha:** 25/09/2024  
 **Nombre:** Pablo González Silva  
 
 ---
