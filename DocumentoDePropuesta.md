@@ -5,27 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             margin: 20px;
-            background-color: #f9f9f9;
+            background-color: #f7f7f7;
             color: #333;
         }
-        h1, h2, h3, h4 {
-            color: #2c3e50;
+        h1, h2, h3 {
+            color: #3498db;
+            text-align: center;
         }
         h1 {
-            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
         }
         h2 {
             border-bottom: 2px solid #3498db;
             padding-bottom: 5px;
+            margin-top: 20px;
+            font-size: 1.8em;
         }
         h3 {
-            margin-top: 20px;
+            margin-top: 15px;
             color: #2980b9;
+            font-size: 1.5em;
         }
-        ul {
+        p {
+            margin: 15px 0;
+        }
+        ul, ol {
             margin: 10px 0;
             padding-left: 20px;
         }
@@ -33,9 +41,16 @@
             margin: 5px 0;
         }
         .highlight {
-            background-color: #ecf0f1;
+            background-color: #e7f3fe;
             padding: 10px;
             border-left: 4px solid #3498db;
+            margin-bottom: 20px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            text-align: center;
+            color: #555;
         }
     </style>
 </head>
@@ -43,7 +58,7 @@
 
     <h1>Proyecto 1</h1>
 
-    <h2>Desarrollando una aplicación web: </h2>
+    <h2>Desarrollando una aplicación web</h2>
     <h3>De la teoría a la práctica</h3>
 
     <h2>Documento de propuesta</h2>
@@ -57,88 +72,111 @@
 
     <h2>¿Qué contiene?</h2>
     <ul>
-        <li>La descripción de la idea de la aplicación y su propósito.</li>
-        <li>El público objetivo y la relevancia para dicho público.</li>
-        <li>Un análisis de mercado y la propuesta de valor diferenciadora.</li>
-        <li>Las funcionalidades clave que ofrecerá la aplicación.</li>
-        <li>Las tecnologías seleccionadas para el desarrollo, justificando la elección.</li>
+        <li>Descripción de la idea de la aplicación y su propósito.</li>
+        <li>Público objetivo y relevancia.</li>
+        <li>Análisis de mercado y propuesta de valor diferenciadora.</li>
+        <li>Funcionalidades clave de la aplicación.</li>
+        <li>Tecnologías seleccionadas para el desarrollo, con justificación.</li>
     </ul>
 
-    <h2>La descripción de la idea de la aplicación y su propósito</h2>
-    <p>La idea es una plataforma web dedicada al alquiler de productos entre particulares. El objetivo principal es crear un espacio en el que los usuarios puedan ofrecer y alquilar una amplia variedad de objetos que no utilizan de manera frecuente, como herramientas, equipos electrónicos, equipos deportivos o muebles para eventos. De este modo, la aplicación fomenta un uso más eficiente de los recursos, evitando la compra de artículos de uso ocasional y promoviendo la economía colaborativa.</p>
+    <h2>Descripción de la idea y propósito</h2>
+    <p>La plataforma web se dedica al alquiler de productos entre particulares, creando un espacio donde los usuarios pueden ofrecer y alquilar objetos poco utilizados, como herramientas, equipos electrónicos o muebles. Se fomenta un uso eficiente de los recursos y se promueve la economía colaborativa.</p>
 
-    <p>El objetivo de esta aplicación es facilitar el acceso temporal a productos que las personas necesitan, pero que no quieren o no pueden comprar de manera permanente. De esta manera, se aborda el problema del consumismo excesivo y se promueve un modelo de consumo más sostenible. Además, la plataforma permite a los usuarios monetizar los bienes que no usan de manera frecuente, generando ingresos pasivos.</p>
+    <p>El objetivo es facilitar el acceso temporal a productos necesarios, abordando el consumismo excesivo y promoviendo un consumo más sostenible. También permite a los usuarios monetizar bienes poco usados, generando ingresos pasivos.</p>
 
-    <h2>El público objetivo y la relevancia para dicho público</h2>
-    <p>Está dirigida a un público amplio y diverso que incluye:</p>
+    <h2>Público objetivo</h2>
+    <p>La aplicación está dirigida a:</p>
 
     <h3>Personas que necesitan productos de uso temporal:</h3>
     <ul>
-        <li><strong>Particulares:</strong> que requieren productos puntuales como herramientas, equipos deportivos o muebles para eventos, pero no desean comprarlos por su alto costo o por falta de uso frecuente.</li>
-        <li><strong>Estudiantes o jóvenes profesionales:</strong> que tienen necesidades temporales, como alquilar equipos electrónicos o muebles mientras se mudan o realizan proyectos.</li>
+        <li><strong>Particulares:</strong> que necesitan productos puntuales sin querer comprarlos.</li>
+        <li><strong>Estudiantes y jóvenes profesionales:</strong> que buscan soluciones temporales.</li>
     </ul>
 
-    <h3>Personas que poseen productos en desuso y desean monetizarlos:</h3>
+    <h3>Propietarios de productos en desuso:</h3>
     <ul>
-        <li><strong>Propietarios:</strong> de objetos que no usan frecuentemente, como bicicletas, taladros, cámaras fotográficas o instrumentos musicales, que ven en la plataforma una forma de generar ingresos adicionales alquilándolos a otros.</li>
+        <li><strong>Generar ingresos:</strong> alquilando objetos que no utilizan frecuentemente.</li>
     </ul>
 
-    <h3>Personas interesadas en el consumo sostenible:</h3>
+    <h3>Personas interesadas en consumo sostenible:</h3>
     <ul>
-        <li><strong>Usuarios:</strong> preocupados por el medio ambiente y que buscan formas de reducir el consumo excesivo y el desperdicio. La aplicación ofrece una alternativa al consumismo mediante el reuso de productos y la maximización de su utilidad.</li>
+        <li><strong>Reducción de desperdicios:</strong> buscando alternativas al consumismo.</li>
     </ul>
 
     <h3>Comunidades locales:</h3>
     <ul>
-        <li>La aplicación tiene un enfoque geolocalizado, facilitando el alquiler de productos entre personas de la misma zona o ciudad, lo que la hace atractiva para aquellos que prefieren realizar transacciones locales y apoyar a su comunidad.</li>
+        <li><strong>Facilitando transacciones:</strong> entre personas de la misma zona.</li>
     </ul>
 
-    <h2>Un análisis de mercado y la propuesta de valor diferenciadora</h2>
-    <p>El mercado del alquiler de productos entre particulares forma parte de la creciente tendencia de la economía colaborativa o "sharing economy", donde las personas comparten bienes o servicios en lugar de adquirirlos permanentemente. Este modelo ha ganado popularidad debido a su impacto positivo tanto económico como medioambiental, al reducir el consumo innecesario y aprovechar mejor los recursos.</p>
-
-    <h3>Competencia:</h3>
-    <ul>
-        <li><strong>Wallapop (España):</strong> Aunque se centra principalmente en la compra-venta de productos de segunda mano, también permite el alquiler de productos. Sin embargo, esta funcionalidad no es el núcleo de su negocio, por lo que la experiencia de alquiler está menos optimizada en comparación con la compra directa.</li>
-        <li><strong>Plataformas especializadas:</strong> Existen plataformas como Vinted o Milanuncios que, aunque no ofrecen servicios de alquiler, compiten indirectamente al proporcionar a los usuarios acceso a productos a menor precio.</li>
-        <li><strong>Internacional:</strong> En el ámbito internacional, plataformas como Fat Llama (Reino Unido y EE.UU.) o ShareGrid (EE.UU.), centradas en el alquiler de equipos electrónicos y audiovisuales, también pueden considerarse competidores potenciales si llegaran a expandirse al mercado español.</li>
-    </ul>
-
-    <p>A pesar de la existencia de competidores, la aplicación propuesta tiene varias características que la diferencian y le dan una ventaja competitiva:</p>
+    <h2>Análisis de mercado y propuesta de valor</h2>
+    <p>El alquiler de productos entre particulares es parte de la economía colaborativa, ganando popularidad por su impacto económico y medioambiental positivo. Competidores como Wallapop y Fat Llama ofrecen servicios similares, pero nuestra propuesta tiene ventajas competitivas:</p>
     
     <ol>
-        <li><strong>Enfoque Exclusivo en el Alquiler:</strong> A diferencia de plataformas generalistas como Wallapop, esta aplicación está diseñada específicamente para el alquiler, optimizando funcionalidades como el seguimiento de productos alquilados y la gestión de calendarios de disponibilidad.</li>
-        <li><strong>Foco en la Comunidad Local:</strong> Incentiva el alquiler entre personas cercanas geográficamente, facilitando la entrega y devolución de productos sin necesidad de intermediarios o costosos envíos.</li>
-        <li><strong>Segmentación Flexible de Categorías:</strong> Abarcará una amplia gama de productos, desde herramientas y equipos electrónicos hasta artículos para el hogar y el ocio, adaptándose fácilmente a nichos específicos.</li>
-        <li><strong>Sostenibilidad como Pilar Central:</strong> La propuesta de valor está alineada con las tendencias de consumo responsable y economía circular, haciendo la aplicación atractiva para personas interesadas en minimizar el desperdicio.</li>
-        <li><strong>Valoraciones y Reputación como Filtro de Confianza:</strong> El sistema de valoraciones ayudará a eliminar comportamientos inadecuados y a premiar a los usuarios responsables.</li>
+        <li><strong>Enfoque Exclusivo en el Alquiler:</strong> Optimizando la experiencia de alquiler.</li>
+        <li><strong>Foco en la Comunidad Local:</strong> Facilita entregas y devoluciones.</li>
+        <li><strong>Segmentación Flexible de Categorías:</strong> Amplia gama de productos.</li>
+        <li><strong>Sostenibilidad:</strong> Alineada con tendencias de consumo responsable.</li>
+        <li><strong>Valoraciones y Reputación:</strong> Filtro de confianza para los usuarios.</li>
     </ol>
 
-    <h2>Las funcionalidades clave que ofrecerá la aplicación</h2>
+    <h2>Funcionalidades clave de la aplicación</h2>
     
     <ol>
-        <li><strong>Registro de Usuarios y Verificación de Identidad:</strong>
+        <li><strong>Registro de Usuarios:</strong>
             <ul>
-                <li>Registro y Login: A través de correo electrónico, redes sociales o teléfono móvil.</li>
-                <li>Verificación de identidad: Carga de documentos como el DNI o pasaporte.</li>
-                <li>Perfil de usuario: Gestión de información personal y historial de alquileres.</li>
+                <li>Registro y Login mediante correo o redes sociales.</li>
+                <li>Verificación de identidad mediante documentos.</li>
+                <li>Perfil de usuario con historial de alquileres.</li>
             </ul>
         </li>
-        <li><strong>Publicación de Productos para Alquilar:</strong>
+        <li><strong>Publicación de Productos:</strong>
             <ul>
-                <li>Subida de productos: Descripciones detalladas, fotos, categorías y condiciones de alquiler.</li>
-                <li>Gestión de disponibilidad: Calendario de disponibilidad de cada producto.</li>
-                <li>Precio flexible: Establecimiento de precios diferenciados.</li>
+                <li>Subida de productos con descripciones y fotos.</li>
+                <li>Gestión de disponibilidad mediante calendario.</li>
+                <li>Precios flexibles según tiempo de alquiler.</li>
             </ul>
         </li>
-        <li><strong>Búsqueda y Filtrado de Productos:</strong>
+        <li><strong>Búsqueda y Filtrado:</strong>
             <ul>
-                <li>Búsqueda avanzada: Filtros por categoría, ubicación, precio y valoraciones.</li>
-                <li>Geolocalización: Mapa interactivo para encontrar productos disponibles cerca de la ubicación.</li>
+                <li>Búsqueda avanzada por categoría y ubicación.</li>
+                <li>Geolocalización para encontrar productos cercanos.</li>
             </ul>
         </li>
         <li><strong>Proceso de Alquiler:</strong>
             <ul>
-                <li>Reserva del producto: Selección de fechas de alquiler.</li>
-                <li>Pagos integrados: Integración con plataformas de pago seguras.</li>
-                <li>Depósito de seguridad: Opción de solicitar un depósito.</li>
-                <li>Contratos
+                <li>Reserva de productos en fechas disponibles.</li>
+                <li>Pagos integrados mediante plataformas seguras.</li>
+                <li>Contratos digitales que estipulan condiciones.</li>
+            </ul>
+        </li>
+        <li><strong>Sistema de Valoraciones:</strong>
+            <ul>
+                <li>Calificación mutua entre arrendadores y arrendatarios.</li>
+                <li>Construcción de reputación basada en valoraciones.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Tecnologías seleccionadas</h2>
+
+    <h3>Parte Cliente (Frontend)</h3>
+    <ul>
+        <li><strong>Angular:</strong> Framework principal para la interfaz de usuario.</li>
+        <li><strong>HTML5:</strong> Estructura semántica de la interfaz.</li>
+        <li><strong>CSS3:</strong> Diseño responsivo y atractivo.</li>
+        <li><strong>TypeScript:</strong> Lenguaje principal para un código más seguro.</li>
+        <li><strong>Google Maps API:</strong> Integración de mapas interactivos.</li>
+    </ul>
+
+    <h3>Parte Servidor (Backend)</h3>
+    <ul>
+        <li><strong>MySQL:</strong> Gestión de base de datos para almacenar información.</li>
+        <li><strong>Google Maps API:</strong> Procesamiento de ubicaciones en el backend.</li>
+    </ul>
+
+    <div class="footer">
+        <p>Este documento presenta la propuesta para una innovadora plataforma de alquiler de productos entre particulares, diseñada para ser sostenible y accesible.</p>
+    </div>
+
+</body>
+</html>
